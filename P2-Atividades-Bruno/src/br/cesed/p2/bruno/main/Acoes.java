@@ -22,7 +22,7 @@ public class Acoes {
 		System.out.print("digite a terceira nota: ");
 		double c = tc.nextDouble();
 		Numeros.calculaMedia(a, b, c);
-		
+		Numeros.maiorMultiploMenorQue(13, 100);
 		tc.close();
 	}
 }

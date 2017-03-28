@@ -49,5 +49,16 @@ public class Numeros {
 			double media = (a + b +c)/3;
 			System.out.println("a média das notas é igual a: " + media);
 		}
+		public static void maiorMultiploMenorQue(int k, int n){
+			int loop = 0;
+			final int l =k;
+				while (k < n){
+					loop += 1;
+					k = k+l;
+					}
+				System.out.println("O maior multiplo foi: " + (loop*l));}
+		
+			
+		
 		
 }
