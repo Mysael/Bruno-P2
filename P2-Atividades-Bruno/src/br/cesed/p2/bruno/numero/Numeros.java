@@ -36,6 +36,10 @@ public class Numeros {
 			}
 			
 		}
+		public static void converteCelsiusParaFahrenheit(double temperatura){
+			double fahrenheit = ((temperatura * (9/5))+32);
+			System.out.println("A temperatura em Fahrenheit é: " + fahrenheit);
+		}
 
 		
 		

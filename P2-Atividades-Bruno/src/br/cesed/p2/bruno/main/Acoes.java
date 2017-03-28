@@ -13,6 +13,9 @@ public class Acoes {
 		Numeros.arredondadorNumeros((float) 38.4);
 		Letras.converterParaMaiusculo("opa man!");
 		Letras.converterParaMinusculo("YAEH BICHO!!!");
+		Numeros.converteCelsiusParaFahrenheit(50);
+		
+		
 		tc.close();
 	}
 }
