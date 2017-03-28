@@ -14,7 +14,14 @@ public class Acoes {
 		Letras.converterParaMaiusculo("opa man!");
 		Letras.converterParaMinusculo("YAEH BICHO!!!");
 		Numeros.converteCelsiusParaFahrenheit(50);
-		
+		Numeros.converteFahrenheitParaCelsius(82);
+		System.out.print("digite a primeira nota: ");
+		double a = tc.nextDouble();
+		System.out.print("digite a segunda nota: ");
+		double b = tc.nextDouble();
+		System.out.print("digite a terceira nota: ");
+		double c = tc.nextDouble();
+		Numeros.calculaMedia(a, b, c);
 		
 		tc.close();
 	}

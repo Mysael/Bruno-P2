@@ -37,10 +37,17 @@ public class Numeros {
 			
 		}
 		public static void converteCelsiusParaFahrenheit(double temperatura){
-			double fahrenheit = ((temperatura * (9/5))+32);
+			double fahrenheit = ((temperatura * 9/5) + 32);
 			System.out.println("A temperatura em Fahrenheit é: " + fahrenheit);
 		}
-
+		public static void converteFahrenheitParaCelsius(double temperatura){
+			double Celsius = ((temperatura-32) * 5/9);
+			System.out.println("A temperatura em Celsius é: " + Celsius);
+		}
 		
+		public static void calculaMedia(double a, double b, double c){
+			double media = (a + b +c)/3;
+			System.out.println("a média das notas é igual a: " + media);
+		}
 		
 }
